@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #3a4862;
+}
+
+body a {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    position: fixed;
+    z-index: 100; 
+}
+
+header ul {
+    margin-right: 0%;
+}
+
+header a {
+    text-decoration: none;
+    color: #344057;
+    font-family: cambria;
+}
+
+header li {
+    display: inline;
+}
+
+header li a:hover {
+    padding: 10px;
+    background-color: #E3E4FF;
+    border-radius: 15px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header.large {
+    width: 100%;
+    height: 112px;  
+}
+
+header.large img {
+    margin-left: 10%;
+    width: 98px;
+}
+
+header.large li {
+    margin-left: 40px;
+}
+
+header.large a {
+    font-size: 35px;
+}
+
+header.small {
+    width: 100%;
+    height: 57px;  
+}
+
+header.small img {
+    width: 60px;
+}
+
+header.small li{
+    margin-left: 20px;
+}
+
+header.small a {
+    font-size: 20px;
+}
+
+header,nav, a, img, li{
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+
+.home-info {
+    width: 100%;
+/*    height: 703px;*/
+    background-image: url(../img/photobecg.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.description {
+    width: 100%;
+    height: 703px;
+    background-color: black;
+    z-index: 50;
+    opacity: 0.4;
+/*    position: absolute;*/
+}
+
+.home-info .h1 {
+    z-index: 60;
+    color: white;
+    font-family: AlexanderRegular;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin: 13% 0 0 40%;
+    position: absolute;
+}
+
+.home-info .p {
+    z-index: 60;
+    color: white;
+    font-family: Cambria;
+    margin: 28% 0 0 40%;
+    position: absolute;
+    font-size: 1.2em;
+}
+
+.item1 {
+    width: 100%;
+    height: 605px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.item1 .standart h2{
+    color: #344057;
+    font-family: AlexanderRegular;
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item1 .standart p {
+    font-family: Cambria;
+    color: #344057;
+    margin-bottom: 50px;
+}
+
+.order {
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: AlexanderRegular;
+    background-color: #344057;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.item2 {
+    width: 100%;
+    height: 605px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item2 .lux h2{
+    color: white;
+    font-family: AlexanderRegular;
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item2 .lux p {
+    font-family: Cambria;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.item3 {
+    width: 100%;
+    height: 605px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item3 .super-lux h2{
+    color: #344057;
+    font-family: AlexanderRegular;
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item3 .super-lux p {
+    font-family: Cambria;
+    color: #344057;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 605px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts {
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.contacts p{
+    color: white;
+    font-size: 25px;
+}
+
+.contacts h2 {
+    color: white;
+    font-family: AlexanderRegular;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.contacts hr {
+    color: #ffffff;
+    box-shadow: 1px 2px ; 
+    
+}
+
+.contacts img {
+    width: 48px;
+    margin-left: 35px;
+}

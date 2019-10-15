@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+body {
+    background: url(../img/photobecg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.profile {
+    min-height: 355px;
+    display: inline-block;
+}
+
+figcaption.ratings {
+    margin-top: 20px;
+}
+
+figcaption.ratings a {
+    color: #f1c40f;
+    font-size: 11px;
+}
+
+.divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.emphasis {
+    border-top: 4px solid transparent;
+}
+
+.emphasis h2 {
+    margin-bottom: 0;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.form-control-feedback {
+    right: 10px;
+}
+
+input.error {
+    border: 1px solid #ff0000;
+}
+
+label.error {
+    color: #ff0000;
+    font-weight: normal;
+}
