@@ -1,1 +1,2 @@
-# logos-final-project
+# logos courses hotel management app
+# created using Spring framework, MySQL db
